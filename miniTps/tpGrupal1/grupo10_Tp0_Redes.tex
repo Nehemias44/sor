@@ -1,0 +1,117 @@
+\documentclass[a4paper,12pt,titlepage]{article} % Tipo de plamtilla
+
+% Paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx} % Para insertar imagenes
+\usepackage[table,xcdraw]{xcolor} % Para interpretar colores
+\usepackage{multirow} % Para las tablas
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{lipsum}  
+\usepackage{multicol}
+\usepackage{vmargin}
+\setmargins{2cm}
+{1cm}
+{16.9cm}
+{23.42cm}
+{10pt}
+{1cm}
+{0pt}
+{2cm}
+
+% Colores
+\definecolor{colorUngs}{HTML}{12719C}
+
+% Variables
+\newcommand{\titulo}{Las funciones del lenguaje de\par Jakobson}
+\newcommand{\Autor}{Grupo 10}
+
+
+\pagestyle{myheadings}
+\pagestyle{fancy}
+\fancyhf{}
+
+\setlength{\headheight}{30pt}
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\lhead{Universidad de General Sarmiento}
+\rhead{Sistemas Operativos y Redes}
+
+\lfoot{Camperoz, Gaona, XXX}
+\rfoot{\thepage/\pageref{LastPage}}
+
+
+
+\begin{document}
+\begin{titlepage}
+  \begin{center}
+   \includegraphics[width=1.0\textwidth]{./Imagenes/logo_ungs.png}\par\vspace{0.1cm}
+                  {\LARGE \bfseries Sistemas Operativos y Redes}\par\vspace{0.5cm}
+                  {\huge \bfseries\textcolor{colorUngs}\titulo}\par\vspace{0.2cm}
+                  {\large \bfseries \today}  
+  \end{center}
+
+\vspace{2.5cm}
+
+  \bfseries{{\large \Autor}}
+  \small\begin{itemize}
+    \item Leandro Nehemias Camperoz
+    \item Guillermo Gonzalo Gaona
+    \item XXX
+  \end{itemize}
+  
+  \vspace{1.5cm}
+
+  \bfseries{\large Profesores}
+  \small\begin{itemize}
+    \item Mariano Vargas
+    \item Noelia Sosa
+    \item Ignacio Tula
+  \end{itemize}
+\end{titlepage}
+
+{\Large \textbf{Resumen}}\newline
+
+Segun Roman Jakobson la comunicacion es factible gracias a los siguientes factores y sus funciones del lenguaje.\newline
+
+\begin{center}
+ \begin{tabular}{|l|l|}
+   \hline
+  \textbf{Factor}& \textbf{Funcion} \\
+  \hline
+  Emisor& Emotiva o expresiva\\
+  \hline
+  Mensaje& Poetica\\
+  \hline
+  Receptor& Conativa\\
+  \hline
+  Contexto& Referencaial\\
+  \hline
+  Canal de comunicacion& Factor\\
+  \hline
+  Codigo comun& Metalinguistica\\
+  \hline
+\end{tabular} 
+\end{center}
+
+\begin{itemize}
+  \item \textbf{Emotiva o expresiva}
+    Se centra en el emisor, y permite expresar la nuestra actitud respecto a lo que estamos diciendo. Cuando hablamos no proporcionamos tan solo 
+    informacion conceptual y objetiva, tambien incluimos elementos que tienen que ver con nuestra subjetividad.
+  \item \textbf{Poetica} 
+  \item \textbf{Conativa}
+    Apunta al receptor dele mensaje. Es evidente en los inperativos y en los vocativos. Un inperativo se diferencia de una afirmacion en varios
+    aspectos. No es ni verdadero ni falso, no se puede tranformarlo en una pregunta, es algo que se hace o no. 
+  \item \textbf{Referencaial}
+    Es la que enlaza el acto de comunicacion con su contexto o con su referente, es basica y casi nunca aparece aislada.
+  \item \textbf{Fatica}
+
+  \item \textbf{Metalinguistica} 
+\end{itemize}
+
+\end{document}

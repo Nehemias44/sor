@@ -1,0 +1,89 @@
+\documentclass[a4paper, 14pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[usenames]{xcolor}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{txfonts}
+\usepackage{vmargin}
+\setpapersize{A4}
+\setmargins{2cm}       % margen izquierdo
+{1.5cm}                        % margen superior
+{16.5cm}                      % anchura del texto
+{23.42cm}                    % altura del texto
+{10pt}                           % altura de los encabezados
+{1cm}                           % espacio entre el texto y los encabezados
+{0pt}                             % altura del pie de página
+{2cm}                           % espacio entre el texto y el pie de página
+
+\title{\
+  Trabajo practico N°2 SOR\\
+  Semaforos e hilos}
+
+\author{Leandro Nehemias Camperoz}
+
+\begin{document}
+\maketitle
+\newpage
+\textbf{{\huge Olimpiadas SOR}}\newline
+
+Con el objetivo de poner en practica los conceptos de sincornizacion y exclusion mutua entre hilos de ejecucion, en este trabajo practico se simulo una carrera entre 3 equipos de 2 integrantes cada uno. En esta carrera un participante debe correr hasta cierto punto y luego pasarle la posta a su compañero para que recorra una distancia igual. Cuando el segundo integrante del equipo termine su recorrido se considera que a llagado a la meta.\newline
+
+
+\vspace{1.5cm}
+
+\textbf{\LARGE Soluciones}\newline
+
+\begin{itemize}
+\item Simulamos la distancia a correr los participantes con un ciclo que realiza 2147483647 iteraciones sumando 1 a una variable inicializada en 0.
+\item Los participantes son simulados con hilos de ejecucion (pthread\_t) y cada uno tiene un semaforo (sem\_t).
+\item El primer hilo de cada equipo tiene habilitado su semaforo para realizar las operaciones, cuando termina habilita el semaforo de su compañero (segundo hilo).
+\item La llegada a la meta tambien se simula con un semaforo que es compartido entre los 3 equipos.
+\item Se muestran mensajes por pantalla cuando se habilita el segundo semaforo y el segundo hilo de ejecucion termina las operaciones y bloquea el semaforo de llegada.
+\end{itemize}
+
+\vspace{1.5cm}
+
+\textbf{{\LARGE Errores, problemas y dificultades}}
+
+\begin{itemize}
+\item \textbf{Contadores y representacion de los atletas}.\newline
+
+  Los hilos de un mismo equipo utilizaban el mismo contador para realizar las operaciones, el primero realizaba la mitad de las operacones y el segundo el resto.\newline
+
+  Para que los atletas realizaran las operaciones se definio una funcion para cada uno y se indentificaban mediante muestras por pantalla.
+  
+\item \textbf{Errores con semaforos}.\newline
+  
+  Se inicializaban todos los semaforos en 1 haciendo que todos los hilos se ejecutaban al mismo tiempo.\newline
+
+  Se intento utilizar un solo semaforo por cada equipo, pero muchas veces se ejecutaba primero el segundo hilo del equipo,  llegando a la meta antes de pasar la posta.\newline
+
+\item \textbf{Llegada a la meta}.\newline
+
+  En un principio no se usaba un semaforo para por lo que podian llegar a la meta varios hilos al mismo tiempo. Luego se implemento un semaforo por cada equipo pero no cumplia con el enunciado del trabajo practico.  
+\end{itemize}
+
+\newpage
+
+\textbf{\LARGE Soluciones en la implementacion final}\newline
+
+Para poder reutilizar codigo e identificar mejor a los atletas, se definio una structura \emph{Equipo}  con los siguientes datos.
+
+\begin{itemize}
+\item 1 identificador para el equipo de tipo int.
+\item 2 punteros de tipo char para identificar a los atletas
+\item 2 contadores de tipo int.
+\item 3 punteros de tipo semaforo 1 para atleta y uno para la llegada a al meta.
+\end{itemize} 
+
+Se definio una funcion para cada atleta de equipo. Estas funciones no son de tipo puntero como las de los ejemplos vistos en clase. Para poder usarlas en la funcion \emph{pthread\_create} se las castea con el tipo \emph{(void *)}, lo mismo se hace cuando pasamos como argumento la estructura \emph{Equipo}.\newline
+
+En las funciones se usa el argumento \emph{struct Equipo *e} con el operador de union para acceder convenientemente a los datos y utilizarlos para hacer las operaciones, habilitar/bloquear semaforos y mostrar por pantalla cuando seceden los eventos de paso de posta y llegada a la meta.\newline
+
+\end{document}
+
+
+
+
