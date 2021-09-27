@@ -1,9 +1,8 @@
 PWD /home/nehemias/Documentos/sor/miniTps/tpGrupal1
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT /usr/share/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT grupo10_Tp0_Redes.tex
 OUTPUT grupo10_Tp0_Redes.log
-INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
@@ -30,8 +29,6 @@ INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
@@ -58,7 +55,6 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -71,8 +67,6 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
@@ -93,8 +87,6 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
@@ -105,9 +97,6 @@ INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
@@ -128,8 +117,6 @@ INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
@@ -150,7 +137,6 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
@@ -161,8 +147,6 @@ INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/trig.sty
@@ -191,7 +175,6 @@ INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -206,7 +189,6 @@ INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT /usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
@@ -217,9 +199,6 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/share/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/share/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
 INPUT /usr/share/texmf-dist/tex/latex/multirow/multirow.sty
@@ -240,8 +219,6 @@ INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
 INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
 INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
 INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
-INPUT /usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty
-INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -262,8 +239,6 @@ INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -284,7 +259,6 @@ INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -295,20 +269,6 @@ INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
-INPUT /usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 INPUT /usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex
 INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT /usr/share/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -322,8 +282,6 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/share/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
 INPUT /usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
 INPUT /usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
 INPUT /usr/share/texmf-dist/tex/latex/vmargin/vmargin.sty
@@ -342,7 +300,6 @@ INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT /usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -372,7 +329,7 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
@@ -404,3 +361,4 @@ INPUT grupo10_Tp0_Redes.aux
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
