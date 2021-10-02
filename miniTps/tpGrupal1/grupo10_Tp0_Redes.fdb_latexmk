@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1632741870 "grupo10_Tp0_Redes.tex" "grupo10_Tp0_Redes.pdf" "grupo10_Tp0_Redes" 1632741871
+["pdflatex"] 1633036175 "grupo10_Tp0_Redes.tex" "grupo10_Tp0_Redes.pdf" "grupo10_Tp0_Redes" 1633036175
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1611100792 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1611100792 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1611100792 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -24,7 +24,6 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1611100792 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1611100792 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1611100792 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1611100792 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1611100792 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/babel-spanish/spanish.ldf" 1611100792 26223 0286ca123141cff8dd4956c4576d2ef4 ""
   "/usr/share/texmf-dist/tex/generic/babel/babel.def" 1611100792 117107 1581fb598640513906da8cad532ce3fe ""
@@ -69,9 +68,9 @@
   "/usr/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1631614298 4887670 ed0c86147f86fb295d3bef5a414a2efc ""
   "/usr/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1631614286 2553523 3190b2b5ee7464360f3b04df7ab40357 ""
   "Imagenes/logo_ungs.png" 1632695922 44360 05806b1e2b24cc2f1150f1c42ebc815b ""
-  "grupo10_Tp0_Redes.aux" 1632741871 276 a9a8c9f308b807af75095aa4eaa1cc1a "pdflatex"
-  "grupo10_Tp0_Redes.tex" 1632741870 5058 1d05c569134bda03aeb3ce1e60342ed3 ""
+  "grupo10_Tp0_Redes.aux" 1633036175 276 a9a8c9f308b807af75095aa4eaa1cc1a "pdflatex"
+  "grupo10_Tp0_Redes.tex" 1633036173 6279 68d63249c67ac866ab2da15b46a40e58 ""
   (generated)
-  "grupo10_Tp0_Redes.pdf"
-  "grupo10_Tp0_Redes.aux"
   "grupo10_Tp0_Redes.log"
+  "grupo10_Tp0_Redes.aux"
+  "grupo10_Tp0_Redes.pdf"
